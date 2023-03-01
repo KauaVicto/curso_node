@@ -6,6 +6,6 @@ const controllers_1 = require("./../controllers");
 const router = (0, express_1.Router)();
 exports.router = router;
 router.get('/', (req, res) => {
-    return res.json({ msg: 'Layla te amoo' });
+    return res.json({ msg: 'Layla te amoo!' });
 });
 router.post('/cidades', controllers_1.CidadesController.createBodyValidator, controllers_1.CidadesController.create);
