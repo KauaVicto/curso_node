@@ -24,6 +24,4 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies
-        run: |
-          cd ../curso_node
-          npm install
+        run: cd ${{ secrets.REMOTE_TARGET }} && npm install
