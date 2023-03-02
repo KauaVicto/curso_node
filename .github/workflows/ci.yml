@@ -24,4 +24,5 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: pwd && npm install
+        working-directory: ./app
+        run: npm install
