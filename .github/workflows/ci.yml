@@ -22,6 +22,6 @@ jobs:
           TARGET: ${{ secrets.REMOTE_TARGET }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 18
       - name: Install dependencies
-        run: ls && npm install
+        run: pwd && npm install
