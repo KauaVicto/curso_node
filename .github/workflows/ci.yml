@@ -23,9 +23,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
-      - name: Print current directory
-        run: pwd
       - name: Install dependencies
         run: |
-          cd app
+          cd ../curso_node
           npm install
