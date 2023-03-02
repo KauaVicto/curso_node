@@ -23,4 +23,4 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies
-        run: pwd
+        run: npm install
