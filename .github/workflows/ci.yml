@@ -24,4 +24,4 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies
-        run: cd ${{ secrets.REMOTE_TARGET }} && npm install
+        run: cd /home/${{ secrets.REMOTE_USER }}/app && npm install
