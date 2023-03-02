@@ -23,5 +23,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
-      - run: cd /home/ubuntu/app
-      - run: npm install
+      - name: Print current directory
+        run: pwd
+      - name: Install dependencies
+        run: |
+          cd app
+          npm install
