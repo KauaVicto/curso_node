@@ -25,7 +25,6 @@ jobs:
           pwd
           cd ./app
           npm install
-          tsc
     - uses: actions/setup-node@v3
       with:
         node-version: 18.x
