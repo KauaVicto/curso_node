@@ -29,11 +29,3 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18.x
-        cache: 'npm'
-<<<<<<< HEAD
-    - run: pwd
-    - run: npm install
-    - run: tsc
-    - run: npm run startdev
-=======
->>>>>>> 86d2a398b9908e88b5948d4480f192e19e04ae8b
