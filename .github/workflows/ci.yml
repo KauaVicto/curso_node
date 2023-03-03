@@ -22,6 +22,7 @@ jobs:
         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
         TARGET: ${{ secrets.REMOTE_TARGET }}
         SCRIPTS: |
+          cd ./app
           npm install
     - uses: actions/setup-node@v3
       with:
