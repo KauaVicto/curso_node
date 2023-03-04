@@ -22,6 +22,6 @@ export const create = async (req: Request<{}, {}, ICidade>, res: Response) => {
 
     console.log(req.body);
 
-    return res.send('Cidade criada com sucesso!');
+    return res.send('Cidade criada com sucesso!!!!');
 
 };
