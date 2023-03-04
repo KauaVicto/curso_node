@@ -25,6 +25,7 @@ jobs:
           pwd
           cd ./app
           npm install
+          pwd
           npx tsc
     - uses: actions/setup-node@v3
       with:
