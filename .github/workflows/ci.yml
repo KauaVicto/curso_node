@@ -27,6 +27,7 @@ jobs:
           npm install
           pwd
           npx tsc
+          pwd
           nohup npm run start &
     - uses: actions/setup-node@v3
       with:
